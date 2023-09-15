@@ -39,7 +39,6 @@ int main (void)
 
     while (index < noms_triees.size())
     {
-                cout << noms_triees[index] << endl;
                 total_nom = 0;
                 for (i = 0; i < noms_triees[index].size(); i++)
                 {
@@ -49,7 +48,6 @@ int main (void)
                 }
                 total_nom += noms_triees[index].size();
                 total += (total_nom * (index+1));
-                cout << "Le total à l'index " << index << " vaut " << total << endl;
                 index++;
     }
     
