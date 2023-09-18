@@ -1,0 +1,2 @@
+# Espace CodinGame
+Ce dossier contient tous les codes réalisés sur CodinGame. Chaque nom de fichier correspond au puzzle solo résolu. Les fichiers sont classés en fonction de leur difficulté attribuée sur le site.
