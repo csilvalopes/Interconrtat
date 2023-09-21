@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "Merci de taper le mot Bonjour ou Salut"
+read answer
+
+if [ $answer = "Bonjour" ]
+then
+    echo "Condition valide avec Bonjour"
+elif [ $answer = "Salut" ]
+then
+    echo "Condition valide avec Salut"
+else
+    echo "Condition non valide"
+fi
+
+echo "Réalisons un second test - Quel est ton âge ?"
+read age
+monage=23
+
+if [ -z $age ]
+then
+    echo "As-tu quelque chose a cacher ?"
+elif [ $age -eq $monage ]
+then
+    echo "Quel beau millesime"
+elif [ $monage -lt $age ]
+then
+    echo "Tu es si ancien ?"
+else
+    echo "Tu proviens de la dernière pluie :p"
+fi

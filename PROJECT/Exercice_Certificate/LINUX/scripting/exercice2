@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Quel est ton prénom ?"
+read prenom
+echo "Quel est ton nom ?"
+read famille
+echo "Ton prenom est : $prenom et ton nom est : $famille"

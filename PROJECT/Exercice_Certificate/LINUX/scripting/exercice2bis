@@ -1,0 +1,10 @@
+#!/bin/bash
+chiffre1=17
+chiffre2=20
+chiffre3=$((chiffre1+chiffre2))
+
+chiffre4=`expr $chiffre1 + 10`
+
+echo "$chiffre3"
+
+echo "$chiffre4"
